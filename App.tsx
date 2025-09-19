@@ -5,7 +5,6 @@ import POSScreen from './src/Screens/Home/POSScreen';
 import InvoiceScreen from './src/Screens/Home/InvoiceScreen';
 import HistoryScreen from './src/Screens/Home/HistoryScreen';
 
-
 export default function App() {
   const [screen, setScreen] = useState('Login');
   const [user, setUser] = useState(null);
